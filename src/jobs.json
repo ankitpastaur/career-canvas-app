@@ -1,0 +1,214 @@
+{
+  "job": [
+    {
+      "id": "1",
+      "title": "Senior Vue Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as Vue or Angular.",
+      "location": "Boston, MA",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "type": "Full-Time",
+      "title": "Hedda Wolfe",
+      "salary": "₹5L - ₹7L",
+      "location": "Sint dolore nihil n",
+      "description": "Ullamco do cum sunt",
+      "company": {
+        "name": "Howell Wilder Inc",
+        "description": "In nulla ullamco qua",
+        "contactEmail": "vutezyp@mailinator.com",
+        "contactPhone": "+1 (684) 501-2123sadsd"
+      },
+      "id": "cd45"
+    },
+    {
+      "id": "559f",
+      "type": "Remote",
+      "title": "Vue Front-End Developer",
+      "salary": "$60K - $70K",
+      "location": "Pheonix, AZ",
+      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+      "company": {
+        "name": "Alpha Elite",
+        "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
+        "contactEmail": "contact@adipisicingelit.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "type": "Full-Time",
+      "title": "Hedda Wolfe",
+      "salary": "$150K - $175K",
+      "location": "Sint dolore nihil n",
+      "description": "Ullamco do cum sunt",
+      "company": {
+        "name": "Howell Wilder Inc",
+        "description": "In nulla ullamco qua",
+        "contactEmail": "vutezyp@mailinator.com",
+        "contactPhone": "+1 (684) 501-2123sadsdasdadsd"
+      },
+      "id": "751b"
+    },
+    {
+      "type": "Full-Time",
+      "title": "Hedda Wolfe",
+      "salary": "$150K - $175K",
+      "location": "Sint dolore nihil n",
+      "description": "Ullamco do cum sunt",
+      "company": {
+        "name": "Howell Wilder Inc",
+        "description": "In nulla ullamco qua",
+        "contactEmail": "vutezyp@mailinator.com",
+        "contactPhone": "sadadd"
+      },
+      "id": "6cd2"
+    },
+    {
+      "type": "Full-Time",
+      "title": "sad",
+      "salary": "₹7L - ₹10L",
+      "location": "India",
+      "description": "sdad",
+      "company": {
+        "name": "sdsdsd",
+        "description": "asdsd",
+        "contactEmail": "adasdsd@gmai.com",
+        "contactPhone": "sddff"
+      },
+      "id": "2255"
+    },
+    {
+      "id": "0a2b",
+      "title": "Lacey Ramos",
+      "type": "Part-Time",
+      "salary": "Over $200K",
+      "location": "Aut saepe nobis sit",
+      "description": "Quia expedita est of",
+      "company": {
+        "name": "Mccormick and Kirby Co",
+        "description": "Eligendi expedita qu",
+        "contactEmail": "xaqa@mailinator.com",
+        "contactPhone": "+1 (397) 472-8455"
+      }
+    },
+    {
+      "type": "Full-Time",
+      "title": "Howard Mueller",
+      "salary": "$175K - $200K",
+      "location": "Voluptatem accusanti",
+      "description": "Deserunt mollit mole",
+      "company": {
+        "name": "Briggs Trujillo Trading",
+        "description": "Aut facilis dolores ",
+        "contactEmail": "toxaruly@mailinator.com",
+        "contactPhone": "+1 (426) 563-4935"
+      },
+      "id": "4277"
+    },
+    {
+      "id": "aa88",
+      "title": "ddsfsdf",
+      "type": "Full-Time",
+      "salary": "$60K - $70K",
+      "location": "India",
+      "description": "dsfsdf",
+      "company": {
+        "name": "dsfdsf",
+        "description": "sdfdsf",
+        "contactEmail": "dsfdsf@gmail.com",
+        "contactPhone": "sdffffdsfdsf"
+      }
+    },
+    {
+      "id": "4a13",
+      "title": "Aidan Castillo",
+      "type": "Internship",
+      "salary": "Over $200K",
+      "location": "Anim laboris nobis u",
+      "description": "Et totam obcaecati d",
+      "company": {
+        "name": "Delgado and Davis Co",
+        "description": "Soluta ex et enim ve",
+        "contactEmail": "sukukidusy@mailinator.com",
+        "contactPhone": "+1 (375) 551-6403"
+      }
+    },
+    {
+      "id": "bc6d",
+      "title": "Maris Gibbs",
+      "type": "Full-Time",
+      "salary": "$100K - $125K",
+      "location": "Recusandae Laboris ",
+      "description": "Magni dolore alias s",
+      "company": {
+        "name": "Hines Lang LLC",
+        "description": "Debitis proident vi",
+        "contactEmail": "lupeximagi@mailinator.com",
+        "contactPhone": "+1 (788) 882-4806"
+      }
+    },
+    {
+      "id": "fba4",
+      "title": "Richard Barber",
+      "type": "Internship",
+      "salary": "Under $50K",
+      "location": "Et do aute at praese",
+      "description": "Ut vero autem atque ",
+      "company": {
+        "name": "Snyder Boone LLC",
+        "description": "Hic omnis in officia",
+        "contactEmail": "gorahedaj@mailinator.com",
+        "contactPhone": "+1 (493) 851-7572"
+      }
+    },
+    {
+      "id": "a6c6",
+      "title": "Sophia Cunningham",
+      "type": "Remote",
+      "salary": "Over $200K",
+      "location": "Optio quis ut ea at",
+      "description": "Voluptate aute conse",
+      "company": {
+        "name": "Randall and Rollins Trading",
+        "description": "Dolores optio facil",
+        "contactEmail": "pylino@mailinator.com",
+        "contactPhone": "+1 (803) 274-8994"
+      }
+    },
+    {
+      "id": "12a5",
+      "title": "Violet Pena",
+      "type": "Remote",
+      "salary": "Over ₹30L",
+      "location": "Consequatur officia",
+      "description": "Sit sint neque rec",
+      "company": {
+        "name": "Calhoun and Donovan Traders",
+        "description": "Aliquam quaerat cill",
+        "contactEmail": "ryxan@mailinator.com",
+        "contactPhone": "+1 (794) 464-5981"
+      }
+    },
+    {
+      "type": "Part-Time",
+      "title": "Anjali",
+      "salary": "₹5L - ₹7L",
+      "location": "India",
+      "description": "Anjali Ankit",
+      "company": {
+        "name": "Anjali",
+        "description": "Anjali",
+        "contactEmail": "Anjali@gmail.com",
+        "contactPhone": "9584822084"
+      },
+      "id": "bc93"
+    }
+  ]
+}
