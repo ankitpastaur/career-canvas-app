@@ -20,8 +20,64 @@ const form = reactive({
   },
 });
 
+// const handleSubmit = async () => {
+//   const newJob = {
+//     title: form.title,
+//     type: form.type,
+//     salary: form.salary,
+//     location: form.location,
+//     description: form.description,
+//     company: {
+//       name: form.company.name,
+//       description: form.company.description,
+//       contactEmail: form.company.contactEmail,
+//       contactPhone: form.company.contactPhone,
+//     },
+//   };
+
+//   try {
+//     const response = await axios.post("/api/job", newJob);
+//     console.log("calling response", response);
+
+//     toast.success("Job added successfully");
+//     router.push(`/jobs/${response.data.id}`);
+//   } catch (error) {
+//     console.error("Error fetching job", error);
+//     toast.error("Job was not added");
+//   }
+// };
+
+const getNextId = async () => {
+  try {
+    // Fetch the existing jobs to find the highest ID
+    const response = await axios.get("/api/job");
+    const jobs = response.data;
+
+    // Assuming the ID is a number, find the highest numeric ID
+    const maxId = jobs.reduce(
+      (max, job) => Math.max(max, parseInt(job.id, 36)),
+      0
+    );
+
+    // Increment and return the next ID in a base36 format (if you want alphanumeric IDs)
+    return (maxId + 1).toString(36);
+  } catch (error) {
+    console.error("Error fetching jobs", error);
+    return null; // Handle error case
+  }
+};
+
 const handleSubmit = async () => {
+  // Get the next sequential ID
+  const nextId = await getNextId();
+
+  if (!nextId) {
+    toast.error("Unable to generate job ID");
+    return;
+  }
+
   const newJob = {
+    id: nextId, // Use the generated sequential ID
     title: form.title,
     type: form.type,
     salary: form.salary,
@@ -37,8 +93,10 @@ const handleSubmit = async () => {
 
   try {
     const response = await axios.post("/api/job", newJob);
+    console.log("calling response", response);
+
     toast.success("Job added successfully");
-    router.push(`/jobs/${response.data.id}`);
+    router.push(`/jobs/${newJob.id}`); // Use the newly generated ID
   } catch (error) {
     console.error("Error fetching job", error);
     toast.error("Job was not added");
