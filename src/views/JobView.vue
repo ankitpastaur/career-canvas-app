@@ -31,9 +31,24 @@ const deleteJob = async () => {
   }
 };
 
+// onMounted(async () => {
+//   try {
+//     const response = await axios.get(`/api/job/${jobId}`);
+//     state.job = response.data;
+//   } catch (error) {
+//     console.error("Error fetching job", error);
+//   } finally {
+//     state.isLoading = false;
+//   }
+// });
+
 onMounted(async () => {
   try {
-    const response = await axios.get(`/api/job/${jobId}`);
+    const response = await axios.get(
+      "https://jsearch.p.rapidapi.com/estimated-salary?job_title=NodeJS%20Developer&location=New-York%2C%20NY%2C%20USA&radius=100"
+    );
+    console.log("calling response", response);
+
     state.job = response.data;
   } catch (error) {
     console.error("Error fetching job", error);
