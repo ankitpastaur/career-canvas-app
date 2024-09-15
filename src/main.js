@@ -8,7 +8,6 @@ import { createApp } from "vue";
 import App from "./App.vue";
 
 const app = createApp(App);
-Vue.config.devtools = true;
 
 app.use(router);
 app.use(Toast);
