@@ -30,7 +30,7 @@ defineProps({
           {{ title }}
         </h1>
         <p class="my-4 text-1xl text-white justify-center">
-          Find the jobs that fit your skills and needs
+          Your Career Starts Here
         </p>
       </div>
     </div>
