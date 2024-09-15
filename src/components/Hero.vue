@@ -1,6 +1,6 @@
 <script setup>
-import herobg from "@/assets/img/herobg-1.webp";
 import { defineProps } from "vue";
+import herobg from "@/assets/img/herobg-1.webp";
 
 defineProps({
   title: {
@@ -13,11 +13,11 @@ defineProps({
 <template>
   <section
     class="bg-blue-900 py-20 mb-4 relative"
-    style="
-      background-image: url('/src/assets/img/herobg-1.webp');
-      background-size: cover;
-      background-position: center;
-    "
+    :style="{
+      backgroundImage: `url(${herobg})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+    }"
   >
     <!-- Background Overlay -->
     <div class="absolute inset-8 bg-black opacity-70"></div>
