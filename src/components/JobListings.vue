@@ -19,7 +19,7 @@ const state = reactive({
 
 // Search and sort related state
 const searchQuery = ref("");
-const sortOption = ref("date"); // Options could be 'date', 'title', 'location', etc.
+const sortOption = ref("date");
 
 // Fetch jobs from API
 onMounted(async () => {
@@ -64,7 +64,6 @@ const filteredAndSortedJobs = computed(() => {
         Browse Jobs
       </h2>
 
-      <!-- Search and Sort Controls -->
       <div class="mb-6 text-center">
         <input
           v-model="searchQuery"
